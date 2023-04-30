@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_File Uploaded</name>
+   <tag></tag>
+   <elementGuidId>293438cc-819e-4642-abaa-ddd028d7305c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>b8cc5abd-fd2d-4e2f-96c4-ffb58bb4c033</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>File Uploaded!</value>
+      <webElementGuid>a784856d-ab92-4dc7-ab81-cde8318d3211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;example&quot;]/h3[1]</value>
+      <webElementGuid>fa97773d-39cf-4ae3-934d-5eaa207f778c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/h3</value>
+      <webElementGuid>0e306f62-fdb0-4e15-b324-684b76b3d258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='attachments.png'])[1]/preceding::h3[1]</value>
+      <webElementGuid>bd4c284f-f81b-4c1a-b704-f7f13a878cd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='File Uploaded!']/parent::*</value>
+      <webElementGuid>29ee208a-a25f-4063-b62f-bff26c9a418b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>020bc7bc-097a-4bd0-8175-138d36e4ba78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'File Uploaded!' or . = 'File Uploaded!')]</value>
+      <webElementGuid>88d0cc01-af2e-47b6-aeb8-fab82ceb4bc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
