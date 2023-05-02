@@ -16,11 +16,11 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@HighPriority
+@LowPriority
 Feature: Product
   I want to use this template for my feature file
 
-  @Positive
+	@Positive
   Scenario Outline: User successfully access product page
     Given user is on login page
     When user input <email> as email

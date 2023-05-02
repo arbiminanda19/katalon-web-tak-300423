@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="41.853692">
+<testcase classname="Login" name="User successfully login" time="24.332331">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user input test30Apr1@gmail.com as email...............................passed
+And user input password as password.........................................passed
+And user click login button.................................................passed
+Then user verify login result...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="User successfully access product page" time="17.521361">
+<skipped><![CDATA[Given user is on login page.................................................passed
+When user input test30Apr1@gmail.com as email...............................passed
+And user input password as password.........................................passed
+And user click login button.................................................passed
+And user click products button..............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

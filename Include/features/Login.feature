@@ -19,8 +19,8 @@
 @HighPriority
 Feature: Login
   I want to use this template for my feature file
-
-  @Positive
+	
+	@Positive
   Scenario Outline: User successfully login
     Given user is on login page
     When user input <email> as email
@@ -31,7 +31,8 @@ Feature: Login
     Examples: 
       | email									| password |
       | test30Apr1@gmail.com 	| password |
-      
-  @Negative
+  
+  @Negative    
   Scenario: User failed login
     Given user is on login page
+    And user click login button

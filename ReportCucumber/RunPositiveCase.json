@@ -1,0 +1,219 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "User successfully login",
+        "description": "",
+        "id": "login;user-successfully-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13634334291,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on login page",
+            "match": {
+              "location": "login.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4630060792,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user input test30Apr1@gmail.com as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test30Apr1@gmail.com",
+                  "offset": 11
+                }
+              ],
+              "location": "login.input_email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1564580000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user input password as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 11
+                }
+              ],
+              "location": "login.I_check_for_the_value_in_step(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1403478625,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user click login button",
+            "match": {
+              "location": "login.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3067281583,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user verify login result",
+            "match": {
+              "location": "login.verify_login_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HighPriority"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I want to use this template for my feature file",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@HighPriority",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "User successfully access product page",
+        "description": "",
+        "id": "product;user-successfully-access-product-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10285299292,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on login page",
+            "match": {
+              "location": "login.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3338570542,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user input test30Apr1@gmail.com as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test30Apr1@gmail.com",
+                  "offset": 11
+                }
+              ],
+              "location": "login.input_email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2478424000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user input password as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 11
+                }
+              ],
+              "location": "login.I_check_for_the_value_in_step(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1401716750,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user click login button",
+            "match": {
+              "location": "login.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user click products button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LowPriority"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Product",
+    "description": "  I want to use this template for my feature file",
+    "id": "product",
+    "keyword": "Feature",
+    "uri": "Include/features/Products.feature",
+    "tags": [
+      {
+        "name": "@LowPriority",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
